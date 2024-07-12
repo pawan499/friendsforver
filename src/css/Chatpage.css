@@ -1,0 +1,62 @@
+.container{
+    border: 2px solid gray;
+    border-radius: 10px;
+    width: 40%;
+    margin-left: 30%;
+    height: 95vh;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
+
+.header,.footer-content{
+    background-color: rgb(176, 0, 182);
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    color:rgb(255, 255, 255);
+}
+
+.serchbox{
+    background-color: aqua;
+    padding: 8px 16px;
+}
+
+.serchbox input{
+    width: 100%;
+    height: 38px;
+    border-radius: 5px;
+    padding: 10px;
+    outline: none;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+i.fa-search{
+    position: relative;
+    left: 95%;
+    top: -30px;
+    z-index: 1;
+    color: rgb(217, 108, 250);
+}
+.footer-content{
+    border-radius: 0 0 9px 9px;
+    position: fixed;
+    width: 39.8%;
+    z-index: 1000;
+    top: 86.1%;
+    
+    
+}
+.chats,.updates,.calls,.communication{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,65 @@
+.people-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.people-container:active{
+    background-color: rgb(243, 243, 243);
+}
+.imagecotainer{
+    width: 10%;
+
+}
+.time{
+    width: 25%;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.timestamp{
+    margin: 3px;
+    
+    color: rgb(24, 247, 8);
+}
+.message-count{
+   
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    padding: 7px;
+   
+    background-color: rgb(24, 247, 8);
+}
+.message-count span{
+   
+    color: white;
+    font-weight: 700;
+    font-size: 12px;
+}
+.profile-pic{
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+    padding: 3px;
+}
+.user-name{
+    font-weight: bolder;
+    font-size: 20px;
+    color: black;
+}
+.people-name{
+    
+    width: 60%;
+}

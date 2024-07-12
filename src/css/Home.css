@@ -1,0 +1,122 @@
+.homepage{
+    width: 60%;
+    margin-left: 20%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 50px;
+    
+}
+
+div.imagepart{
+    width:50%;
+}
+
+ div.imagepart .homepageImage{
+    width: 75%;
+    height: 80vh;
+    margin-left: 12.5%;
+}
+
+div.formpart{
+    border:1px solid gray;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    margin-top:15px ;
+}
+
+h1.logo{
+    margin: 10px;
+    font-family: "Playwrite PE", cursive;
+}
+
+div.form input{
+    width: 90%;
+    height: 35px;
+    margin: 10px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    padding-left: 10px;
+    border: 1px solid gray;
+}
+button.loginbtn{
+    width: 90%;
+    height: 35px;
+    margin: 10px;
+    background-color: blue;
+    border: none;
+    border-radius: 5px;
+}
+
+
+.outerlogin{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.linkpart{
+  margin: 5px; 
+}
+a{
+    text-decoration: none;
+    color: rgb(3, 3, 94);
+}
+
+.horizontal-line {
+    text-align: center;
+    margin: 20px;
+    position: relative;
+  }
+  .horizontal-line::before,
+  .horizontal-line::after {
+    content: '';
+    display: inline-block;
+    width: 45%;
+    vertical-align: middle;
+    border-top: 1px solid gray;
+    position: relative;
+  }
+  .horizontal-line::before {
+    right: 0.5em;
+    margin-left: 0;
+  }
+
+  .form-signup{
+    width: 24%;
+    border: 1px solid gray;
+    position: absolute;
+    left: 56%;
+    top:73%;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .footer{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+   
+  }
+  .footer a{
+    color: gray;
+    margin: 10px;
+  }
